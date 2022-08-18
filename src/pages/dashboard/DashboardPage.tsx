@@ -10,4 +10,4 @@ const DashboardPage : FC = ()=>{
     )
 }
 
-export default DashboardPage
+export default DashboardPage;
