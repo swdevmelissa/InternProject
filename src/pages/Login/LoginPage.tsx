@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { navigateTo } from "../../main/store/stores/navigation/navigation.store";
 import onLogin from "../../main/store/stores/user/login.store.on-login"
 
-const TestPage : FC = ()=>{
+const LoginPage : FC = ()=>{
     
     const [userName, setUserName] = useState(null)
     const [password, setPassword] = useState(null)
@@ -39,4 +39,4 @@ const TestPage : FC = ()=>{
     )
 }
 
-export default TestPage
+export default LoginPage

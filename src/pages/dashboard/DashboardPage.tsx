@@ -1,6 +1,6 @@
 import { FC } from "react"
 
-const DashboardPage : FC = ()=>{
+const DashboardPage: FC = ()=>{
 
 
     return(
