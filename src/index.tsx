@@ -5,6 +5,7 @@ import App from "./app/App";
 import initApp from "./main/initializers/app";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import './bootstrap.min.css';
 
 initApp().then((appStore: any) => {
   ReactDOM.render(

@@ -18,7 +18,7 @@ class AuthManager {
     let userInfo: IUser = null;
 debugger
       try {
-        let result = await (await axios.get(`authentication/validate-token?token=${token}`)).data;
+        let result = await (await axios.get(`authentication/validate-token`,{headers:{token:token}})).data;
         userInfo = result;
       } catch (e) {
         throw e;
