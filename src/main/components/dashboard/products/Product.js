@@ -8,7 +8,7 @@ const Product = ({ product}) => {
     return (
        <div>
           <DashboardHeader />
-        <Card>
+        <Card className='my-3 p-3 rounded'>
            <Link to={`/product/${product.id}`}>
            <Card.Img src={product.image}/>
            </Link>
@@ -16,7 +16,7 @@ const Product = ({ product}) => {
             <Card.Title as='div'>
                 <strong>{product.name}</strong>
             </Card.Title>
-            <Card.Text as='h3'>
+            <Card.Text as='h3' className='my-3'>
                { product.price}
             </Card.Text>
            </Card.Body>
