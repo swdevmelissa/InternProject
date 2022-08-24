@@ -6,6 +6,7 @@ import navigationStore from '../stores/navigation/navigation.store';
 const rootReducer = combineReducers({
   user: userStore.reducer,
   navigation: navigationStore.reducer,
+  
 });
 
 export default rootReducer;
